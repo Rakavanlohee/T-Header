@@ -103,7 +103,7 @@ do
 tput setaf 3
 read -p "Pleas enter Name : " PROC
 tput sgr 0
-if [ ${#PROC} -gt 8 ]; then
+if [ ${#PROC} -gt 15 ]; then
 	echo -e "\e[1;34m[*] \033[32mToo long  characters You have input...\033[0m"
 	echo ""
 	echo -e "\033[32mPlz enter less than \033[33m9 \033[32mcharacters Name\033[0m" | pv -qL 10;
